@@ -1,0 +1,10 @@
+apiVersion: infra.nephio.org/v1alpha1
+kind: ClusterScaleProfile
+metadata:
+  name: scale-profile
+  annotations:
+    config.kubernetes.io/local-config: "true"
+spec:
+  autoscaling: false
+  nodeMax: 6
+  siteDensity: low
