@@ -8,13 +8,13 @@ metadata: # kpt-merge: /caching-dns
 upstream:
   type: git
   git:
-    repo: https://github.com/sandeepAarna/nephio-test-deploy-01.git
+    repo: https://github.com/sandeepAarna/nephio-test-deploy-01
     directory: coredns-caching-scaled
     ref: coredns-caching-scaled/v1
 upstreamLock:
   type: git
   git:
-    repo: https://github.com/sandeepAarna/nephio-test-deploy-01.git
+    repo: https://github.com/sandeepAarna/nephio-test-deploy-01
     directory: coredns-caching-scaled
     ref: coredns-caching-scaled/v1
     commit: a083dde84e54a79ee3a7a06749bbfa7cae96b647
